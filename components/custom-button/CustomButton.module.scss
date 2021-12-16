@@ -1,0 +1,43 @@
+.custom_btn {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: var(--font-medium);
+
+  &:hover {
+    background-color: var(--first-color-alt);
+  }
+}
+
+/*==================== BUTTONS ====================*/
+
+.btn_white {
+  background-color: #fff;
+  color: var(--first-color-second);
+
+  &:hover {
+    background-color: #fff;
+  }
+}
+
+.btn_flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn_small {
+  padding: 0.75rem 1rem;
+}
+
+.btn_link {
+  padding: 0;
+  background-color: transparent;
+  color: var(--first-color);
+
+  &:hover {
+    background-color: transparent;
+    color: var(--first-color);
+  }
+}

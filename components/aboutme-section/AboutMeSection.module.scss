@@ -1,0 +1,70 @@
+.about_me {
+}
+
+/*==================== ABOUT ====================*/
+.img {
+  width: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.description {
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2-5);
+}
+
+.info_title {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+.info_name {
+  font-size: var(--smaller-font-size);
+}
+
+.info_title,
+.info_name {
+  display: block;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 568px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    column-gap: 5rem;
+  }
+
+  .img {
+    width: 350px;
+  }
+
+  .description {
+    text-align: initial;
+  }
+
+  .info {
+    justify-content: space-between;
+  }
+
+  .buttons {
+    justify-content: initial;
+  }
+}
